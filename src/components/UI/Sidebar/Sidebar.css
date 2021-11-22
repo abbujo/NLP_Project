@@ -1,0 +1,84 @@
+.sidebar {
+  height: 100vh;
+}
+
+.sidebar .sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  height: 100%;
+}
+
+.sidebar .sidebar__mobMenu {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 0.4s all;
+  z-index: 999;
+  height: 100%;
+  width: 250px;
+}
+
+.sidebar .sidebar__mobMenu .sidebar__mobMenuClose {
+  text-align: right;
+  font-size: 1.6rem;
+  padding: 0.2rem 0.2rem 0 0;
+}
+
+.sidebar .sidebar__mobileMenuActive {
+  left: 0;
+  transition: 0.2s all;
+}
+
+.sidebar .sidebar__menu .sidebar__logo,
+.sidebar .sidebar__mobMenu .sidebar__logo {
+  text-align: center;
+}
+
+.sidebar .sidebar__menu .sidebar__logo img,
+.sidebar .sidebar__mobMenu .sidebar__logo img {
+  width: 70px;
+}
+
+.sidebar .sidebar__menu .sidebar__tabs,
+.sidebar .sidebar__mobMenu .sidebar__tabs {
+  margin-top: 1rem;
+}
+
+.sidebar .sidebar__menu .sidebar__tabs a,
+.sidebar .sidebar__mobMenu .sidebar__tabs a {
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  cursor: pointer;
+  transition: 0s all;
+  margin-top: 1px;
+}
+
+.sidebar .sidebar__mobMenu .sidebar__tabs a {
+  padding: 0.6rem;
+}
+
+.sidebar .sidebar__menu .sidebar__tabs a:hover,
+.sidebar .sidebar__mobMenu .sidebar__tabs a:hover {
+  background-color: var(--primary-color);
+  color: #ffffff !important;
+}
+
+.sidebar .sidebar__menu .sidebar__tabs .sidebar__activeNavLink,
+.sidebar .sidebar__mobMenu .sidebar__tabs .sidebar__activeNavLink {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 940px) {
+  .sidebar .sidebar__menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .sidebar .sidebar__mobMenu {
+    display: none;
+  }
+}

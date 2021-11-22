@@ -1,0 +1,21 @@
+.login_container > h2{
+    text-transform: uppercase;
+  }
+  
+  .logo{
+    width: 100px;
+  }
+  
+  .Form_Container{
+    margin: 2rem 1rem;
+  }
+  
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 100%;
+  }

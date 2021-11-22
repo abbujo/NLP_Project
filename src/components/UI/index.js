@@ -1,0 +1,11 @@
+export { LoginForm } from "./LoginForm";
+export { RegisterForm } from "./RegisterForm";
+export { DashboardLanding } from "./DashboardLanding";
+export { Sidebar } from "./Sidebar";
+export { DashItem } from "./DashItem";
+export { DashboardHeader } from "./DashboardHeader";
+export { HeaderButton } from "./HeaderButton";
+export { AddCourse } from "./AddCourse";
+export { EditProfile } from "./EditProfile";
+export { ViewWallet } from "./ViewWallet";
+export { Enrol } from "./Enrol";

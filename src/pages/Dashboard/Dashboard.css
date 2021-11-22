@@ -1,0 +1,41 @@
+.dashboard {
+  display: flex;
+}
+
+.dashboard .dashboard__content {
+  padding: 2rem 4%;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.dashboard {
+  display: flex;
+  font-size: 1rem;
+}
+
+.dashboard .dashboard__content {
+  padding: 2rem 4%;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.dashboard .dashboard__content .dashboard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard .dashboard__content .dashboard__header .dashboard__mobMenuOpen {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 940px) {
+  .dashboard .dashboard__sidebar {
+    width: 350px;
+    height: 100%;
+  }
+
+  .dashboard .dashboard__content .dashboard__header {
+    display: none;
+  }
+}

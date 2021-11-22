@@ -1,0 +1,42 @@
+.dashboardHeader {
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboardHeader .dashboardHeader__head {
+  display: flex;
+  align-items: center;
+}
+
+.dashboardHeader .dashboardHeader__head > h1 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.dashboardHeader .dashboardHeader__head .dashboardHeader__backBtn {
+  min-width: 3rem;
+}
+
+.dashboardHeader .dashboardHeader__head .dashboardHeader__backBtn button {
+  padding: 0 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  .dashboardHeader {
+    margin-bottom: 1.2rem;
+    margin-top: 1.6rem;
+  }
+
+  .dashboardHeader > .dashboardHeader__head > h1 {
+    font-size: 1.3rem;
+  }
+
+  .dashboardHeader .dashboardHeader__btn {
+    display: none;
+  }
+}

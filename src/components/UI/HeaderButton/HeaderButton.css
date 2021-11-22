@@ -1,0 +1,16 @@
+.headerButton button {
+  height: 3.2rem;
+  width: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.headerButton button .anticon {
+  margin: 0 !important;
+}
+
+.headerButton button svg {
+  font-size: 0.8rem !important;
+}

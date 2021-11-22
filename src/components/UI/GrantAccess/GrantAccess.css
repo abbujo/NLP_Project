@@ -1,0 +1,13 @@
+.add_course_container {
+  background: #ffffff;
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+}
+.demo-loadmore-list {
+  min-height: 350px;
+}
+@media (max-width: 575px) {
+  .add_course_container .bg-dark {
+    width: 100%;
+  }
+}
